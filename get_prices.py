@@ -17,4 +17,4 @@ try:
     print(data)
 
 except requests.exceptions.RequestException as e:
-    print(f"خطایی رخ داده است: {e}")
+    print(f"Connection Error: {e}")
